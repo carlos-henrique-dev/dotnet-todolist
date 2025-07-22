@@ -50,7 +50,7 @@ App runs on http://localhost:5173
 
 Make sure backend is running or adjust the API URL in frontend/.env.
 
-### 🐳 Run with Docker Compose
+### Run with Docker Compose
 
 Build and start everything with one command:
 
@@ -79,3 +79,12 @@ The frontend uses a `.env` file for configuration:
 ```bash
 VITE_API_URL=http://localhost:8080 # API URL for backend
 ```
+
+### Room for improvements
+- Improve security and performance to the api
+  - this was actually my first time building an API in .net so the current implementation follows the basic patterns and good practices I've found while studying it
+- Connect the FE and BE with a better tool than fetch
+  - for example react query for more inteligent caching and optmistic updates
+- Update docker files to handle prod enviroments too
+  - At the moment it only runs in dev mode
+- Use a more robust database
