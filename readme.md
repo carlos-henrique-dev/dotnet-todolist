@@ -4,6 +4,13 @@ A simple **Todo List** full-stack application with:
 
 [Watch example.mov](docs/example-1.mp4)
 
+
+
+https://github.com/user-attachments/assets/f0b338c7-8655-4731-8b42-56ce87a219b8
+
+
+## Stack
+
 - **Backend**: ASP.NET Core 9 (Minimal API) + SQLite + EF Core
 - **Frontend**: React + Vite + Tailwind CSS
 - **Dockerized**: Run both apps individually or together with Docker Compose
